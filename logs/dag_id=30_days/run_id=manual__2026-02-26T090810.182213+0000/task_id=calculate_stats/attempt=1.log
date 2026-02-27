@@ -1,0 +1,10 @@
+{"timestamp":"2026-02-26T09:08:16.474228Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-26T09:08:16.477100Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/__pycache__/30days.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-26T09:08:16.543753Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-26T09:08:16.544711Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-26T09:08:16.545336Z","level":"info","event":"Current task name:calculate_stats","logger":"task.stdout"}
+{"timestamp":"2026-02-26T09:08:16.545828Z","level":"info","event":"Dag name:30_days","logger":"task.stdout"}
+{"timestamp":"2026-02-26T09:08:16.746413Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-26T09:08:16.773550Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-26T09:08:16.774255Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-26T09:08:16.774879Z","level":"info","event":"Task operator:<Task(PythonOperator): calculate_stats>","logger":"task.stdout"}
